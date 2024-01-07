@@ -1,0 +1,28 @@
+/* heading styles */
+
+header {
+    background-image: url('Banner\ Image.png');
+    background-size: auto;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.top-title {
+    text-align: center;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    width: 630px;
+
+}
