@@ -4,16 +4,17 @@
     align-items: center;
     width: 1320px;
     height: 600px;
-    border: 16px;
-    margin-left: 250px;
+    margin: 50px 140px;
     background-color: #FFF;
     background-repeat: no-repeat;
     background-position: top;
     background-blend-mode: multiply;
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 }
 
-h3 {
+.happy {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -22,7 +23,7 @@ h3 {
     padding-top: 150px;
 }
 
-h1 {
+.new {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
