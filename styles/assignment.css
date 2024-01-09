@@ -1,11 +1,4 @@
 /*header related styles*/
-.header {
-    background-color: #FFF;
-    background-repeat: no-repeat;
-    background-position: top;
-
-}
-
 .banner {
     background-image: url('../resources/Banner\ Image.png');
     align-items: center;
@@ -13,8 +6,12 @@
     height: 600px;
     border: 16px;
     margin-left: 250px;
-}
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-blend-mode: multiply;
 
+}
 
 h3 {
     color: #FFF;
@@ -36,4 +33,217 @@ h1 {
     margin-bottom: 584px;
     width: 632px;
 
+}
+
+.section-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.section-short-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: 48px;
+}
+
+.section-subtitle {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 410;
+    height: 58;
+    padding-left: 50px;
+    margin-bottom: 150px;
+}
+
+.image {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 528px;
+    margin-bottom: 120px;
+}
+
+.welcome {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #FFF;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: 280px;
+}
+
+.welcome-pic {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.welcome-title {
+    margin-left: 280px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+
+.welcome-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 126Px;
+    width: 697px;
+
+}
+
+.join {
+    color: #FFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 901px;
+}
+
+.place {
+    border-radius: 5px;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+
+.ul-first {
+    list-style: none;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 100px;
+    margin-bottom: 214px;
+    margin-left: 586px;
+}
+
+.placee {
+    color: red;
+    margin-left: 120px;
+}
+
+.date {
+    color: #F00;
+    margin-left: 50px;
+}
+
+.time {
+    color: #F00;
+}
+
+.li-time {
+    padding-right: 100px;
+}
+
+.button {
+    border-radius: 8x;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    margin-left: 810px;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* main portion related style */
+
+.gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 280px;
+}
+
+.portfolio {
+    background: #FFF;
+}
+
+.awesome {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 280px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 280px;
+    /* 160% */
+}
+
+.portfolio-pic {
+    margin-left: 280px;
+}
+
+.rectangle {
+    display: flex;
 }
